@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(217, 217, 217); /* Используйте нужный вам оттенок серого */
+  }
+
+.navbar {
+    background-color: #f8f9fa; 
+    padding: 10px 16px; 
+    border-bottom: 1px solid #e9ecef; 
+  }
+  
+  .navbar-brand {
+    font-size: 24px; 
+  }
+
+  .carousel-inner {
+    background: rgb(217, 217, 217);
+  }
+  .carousel-inner img {
+    max-width: 30%;
+    max-height: 30%;
+    width: auto;
+    height: auto;
+    margin: auto;
+    background: rgb(217, 217, 217);
+  }
+  .carousel-control-next-icon {
+    filter: invert(100%);
+  }
+  .carousel-control-prev-icon {
+    filter: invert(100%);
+  }
+
+   /* Персонализация стилей главной части */
+.jumbotron {
+height: 500px; /* Высота главной части */
+display: flex; /* Отображение содержимого по центру вертикали и горизонтали */
+align-items: center;
+justify-content: center;
+color: black; /* Цвет текста */
+}
+
+.jumbotron h1 {
+font-size: 48px; /* Размер заголовка */
+margin-bottom: 20px; /* Отступ снизу */
+}
+
+.jumbotron p {
+font-size: 24px; /* Размер текста */
+}
+.block {
+    margin-bottom: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+  }
+  
+  .footer {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+  }
+  
+  .location-image {
+    max-width: 1500px;
+    max-height: 400px;
+  }
+  
